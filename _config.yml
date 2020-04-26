@@ -28,14 +28,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Snail-Lu
 
+author:
+  name: snail-lu
+  email: "snaillu@yeah.net"
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
-header_pages: #配置顶部导航栏
-  - posts.md
+#配置顶部导航栏
+header_pages: 
+  - articles.md
   - notes.md
+  - projects.md
   - about.md
   - portfolio.md
 
