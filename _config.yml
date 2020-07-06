@@ -41,7 +41,7 @@ plugins:
 header_pages: 
   - articles.md
   - notes.md
-  - projects.md
+  - demo.md
   - about.md
   - portfolio.md
 
